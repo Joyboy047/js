@@ -1,0 +1,3 @@
+let speed = 120;
+let message = speed >= 100 ? "Too fast": "ok"
+console.log(message);
