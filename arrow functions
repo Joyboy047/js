@@ -1,0 +1,15 @@
+let sum = function(a,b){
+    let result= a+b;
+    return result;
+}
+console.log(sum(4,5));
+
+let sum = (a,b) => a,b
+console.log(sum(5,6));
+
+
+let sum = (a, b) => {
+  let result = a + b;
+  return result;
+};
+console.log(sum(4, 3));
