@@ -1,0 +1,5 @@
+let date1 = new Date(1997,8,15);
+date1 .setYear(2024);
+date1 .setMonth(11);
+date1.setDate(4);
+console.log(date1);
