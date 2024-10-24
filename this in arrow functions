@@ -1,0 +1,11 @@
+let car = {
+    brand:"BMW",
+    color:"blue",
+    start:function()
+    {
+        setTimeout(function() {
+            console.log("testing")
+        }, 1000);
+    }
+}
+car.start()
