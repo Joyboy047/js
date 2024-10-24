@@ -1,0 +1,8 @@
+let car = {
+    Color:"Blue",
+    Brand:"BMW",
+    start: function(){
+        console.log(this);
+    }
+};
+car.start();
