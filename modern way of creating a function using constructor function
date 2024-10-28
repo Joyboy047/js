@@ -1,0 +1,9 @@
+function Car (color,brand) {
+        this.color = color;
+        this.brand = brand;
+        this.start = function() {
+        console.log("start");
+                   };
+}
+                  
+console.log(Function.prototype);
