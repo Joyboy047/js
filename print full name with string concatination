@@ -1,0 +1,12 @@
+function person(firstname,lastname){
+    this.firstname = firstname;
+    this.lastname = lastname;
+}
+person.prototype.displayFullName=function(){
+    return this.firstname+"    "+this.lastname;
+}
+let person1 = new person("Virat","Kohli");
+let person2 = new person("Sachin","Tendulkar");
+
+console.log(person2.displayFullName());
+console.log(Object.getOwnPropertyNames(person1));
