@@ -1,0 +1,1 @@
+array.map(callback(currentValue, index, arr))
